@@ -7,7 +7,7 @@
 <h2>{{ $reunion->titre }}</h2>
 <p>{{ $reunion->contenu }}</p>
 
-<br>
+<hr>
 <p>this is a test</p>
 
 </body>
