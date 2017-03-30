@@ -4,7 +4,11 @@
 	<title>Show</title>
 </head>
 <body>
-<h2>Voila la reunion recement ajouté</h2>
+<h2>{{ $reunion->titre }}</h2>
+<p>{{ $reunion->contenu }}</p>
+
+<br>
+<p>this is a test</p>
 
 </body>
 </html>

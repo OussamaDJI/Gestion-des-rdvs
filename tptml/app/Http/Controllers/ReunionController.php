@@ -58,7 +58,8 @@ class ReunionController extends Controller
      */
     public function show($id)
     {
-        //
+        $reunion = Reunion::find($id);
+        return view('reunions.show')->withReunion($reunion);
     }
 
     /**
